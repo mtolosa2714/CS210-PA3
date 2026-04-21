@@ -3,52 +3,47 @@
 Minimum **6 entries** required.
 
 ### Entry 1
-**Issue Encountered:** I worked on implementing the functions of push, pop, top, size, and empty.
-**Error Messages or Symptoms:**  I did not encounter any bugs or issues.
-**Attempts Made:**  I created a temporary code in main.cpp that created a basic stack and checked if the functions gave the correct value when ran. 
-**Final Resolution:** I did not have to fix or improve anything at this point
+**Issue Encountered:** I started the dfs function and didn't know what order to check things in
+**Error Messages or Symptoms:**  The program would crash or not go through the maze
+**Attempts Made:**  I tried to make small tests to check the bounds, walls, and visits
+**Final Resolution:** I made the function with basic conditions so that the recursion could run safely
 
 ---
 
 ### Entry 2
-**Issue Encountered:** I worked on implementing the functions of push, pop, top, size, and empty.
-**Error Messages or Symptoms:**  I did not encounter any bugs or issues.
-**Attempts Made:**  I created a temporary code in main.cpp that created a basic stack and checked if the functions gave the correct value when ran.
-**Final Resolution:** I did not have to fix or improve anything at this point
-
+**Issue Encountered:**
+**Error Messages or Symptoms:**  
+**Attempts Made:**  
+**Final Resolution:**
 
 ---
 
 ### Entry 3
-**Issue Encountered:** I worked on implementing the functions of push, pop, top, size, and empty.
-**Error Messages or Symptoms:**  I did not encounter any bugs or issues.
-**Attempts Made:**  I created a temporary code in main.cpp that created a basic stack and checked if the functions gave the correct value when ran.
-**Final Resolution:** I did not have to fix or improve anything at this point
-
+**Issue Encountered:**
+**Error Messages or Symptoms:**  
+**Attempts Made:**  
+**Final Resolution:**
 
 ---
 
 ### Entry 4
-**Issue Encountered:** I worked on implementing the functions of push, pop, top, size, and empty.
-**Error Messages or Symptoms:**  I did not encounter any bugs or issues.
-**Attempts Made:**  I created a temporary code in main.cpp that created a basic stack and checked if the functions gave the correct value when ran.
-**Final Resolution:** I did not have to fix or improve anything at this point
-
+**Issue Encountered:**
+**Error Messages or Symptoms:**  
+**Attempts Made:**  
+**Final Resolution:**
 
 ---
 
 ### Entry 5
-**Issue Encountered:** I worked on implementing the functions of push, pop, top, size, and empty.
-**Error Messages or Symptoms:**  I did not encounter any bugs or issues.
-**Attempts Made:**  I created a temporary code in main.cpp that created a basic stack and checked if the functions gave the correct value when ran.
-**Final Resolution:** I did not have to fix or improve anything at this point
-
+**Issue Encountered:**
+**Error Messages or Symptoms:**  
+**Attempts Made:**  
+**Final Resolution:**
 
 ---
 
 ### Entry 6
-**Issue Encountered:** I worked on implementing the functions of push, pop, top, size, and empty.
-**Error Messages or Symptoms:**  I did not encounter any bugs or issues.
-**Attempts Made:**  I created a temporary code in main.cpp that created a basic stack and checked if the functions gave the correct value when ran.
-**Final Resolution:** I did not have to fix or improve anything at this point
-
+**Issue Encountered:**
+**Error Messages or Symptoms:**  
+**Attempts Made:**  
+**Final Resolution:** 
