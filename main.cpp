@@ -139,6 +139,14 @@ bool dfs(int r, int c, const vector<vector<int>> & maze, vector<vector<bool>> & 
     for (int i = 0; i < 4; i++) {
         int nr = r + dr[i];
         int nc = c + dc[i];
+        //bounds
+        if (nr < 0 || nr >= n || nc < 0 || nc >= m) {
+            continue;
+        }
+        //wall or visited
+        if (maze[nr][nc] == 1 || vis[nr][nc]) {
+            continue;
+        }
         //parents
         pr[nr][nc] = r;
         pc[nr][nc] = c;
