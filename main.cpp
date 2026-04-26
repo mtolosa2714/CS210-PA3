@@ -129,12 +129,12 @@ bool dfs(int r, int c, const vector<vector<int>> & maze, vector<vector<bool>> & 
     if (maze[r][c] == 1 || vis[r][c]) {
         return false;
     }
+    //mark
+    vis[r][c] = true;
     //exit
     if (r == er && c == ec) {
         return true;
     }
-    //mark
-    vis[r][c] = true;
     //try directions
     for (int i = 0; i < 4; i++) {
         int nr = r + dr[i];

@@ -19,10 +19,10 @@ Minimum **6 entries** required.
 ---
 
 ### Entry 3
-**Issue Encountered:**
-**Error Messages or Symptoms:**  
-**Attempts Made:**  
-**Final Resolution:**
+**Issue Encountered:** Cleaned up the logic and made it more organized
+**Error Messages or Symptoms:**  There was nothing wrong, but it makes it easier for myself and others to follow my code
+**Attempts Made:**  I rearranged the code segments multiple times to find the most logical order
+**Final Resolution:** I first check the invalid ones, then mark the valid ones already visited, and then check the exits and neighbors
 
 ---
 
