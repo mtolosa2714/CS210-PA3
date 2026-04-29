@@ -147,9 +147,11 @@ bool dfs(int r, int c, const vector<vector<int>> & maze, vector<vector<bool>> & 
         if (maze[nr][nc] == 1 || vis[nr][nc]) {
             continue;
         }
-        //parents
-        pr[nr][nc] = r;
-        pc[nr][nc] = c;
+        //parents if not visited
+        if (!vis[nr][nc]) {
+            pr[nr][nc] = r;
+            pc[nr][nc] = c;
+        }
         if (dfs(nr, nc, maze, vis, pr, pc, er, ec)) {
             return true;
         }

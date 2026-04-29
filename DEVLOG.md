@@ -27,10 +27,10 @@ Minimum **6 entries** required.
 ---
 
 ### Entry 4
-**Issue Encountered:**
-**Error Messages or Symptoms:**  
-**Attempts Made:**  
-**Final Resolution:**
+**Issue Encountered:** The path that was printed wasn't always correct
+**Error Messages or Symptoms:**  The output path wasn't always a clear path
+**Attempts Made:**  I checked the parent values in the DFS function that were getting overwritten
+**Final Resolution:** I added an if statement that will only set the parents if it is still untouched
 
 ---
 
