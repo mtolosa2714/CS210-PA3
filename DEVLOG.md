@@ -35,10 +35,10 @@ Minimum **6 entries** required.
 ---
 
 ### Entry 5
-**Issue Encountered:**
-**Error Messages or Symptoms:**  
-**Attempts Made:**  
-**Final Resolution:**
+**Issue Encountered:** The DFS was not connected to main()
+**Error Messages or Symptoms:**  The maze printed but it didn't show the final path
+**Attempts Made:**  I checked where the entrance and exit was and called DFS after the maze was set up
+**Final Resolution:** I called DFS using the entrance and then printed the result
 
 ---
 
