@@ -43,7 +43,7 @@ Minimum **6 entries** required.
 ---
 
 ### Entry 6
-**Issue Encountered:**
-**Error Messages or Symptoms:**  
-**Attempts Made:**  
-**Final Resolution:** 
+**Issue Encountered:** Code worked for small mazes up to 5 5, but didn't work past that
+**Error Messages or Symptoms:**  The program would print No path found! for 6 6 and above
+**Attempts Made:**  I ran tests 1 1, 2 2, 3 3, and so on to see when it would stop finding a path
+**Final Resolution:**  I confirmed that the program only works on a smaller scale when the code would stop finding paths starting at 6 6
