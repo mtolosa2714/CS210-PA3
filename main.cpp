@@ -169,6 +169,12 @@ int main() {
     cout << "Enter maze dimensions N M: ";
     cin >> N >> M;
 
+    //make sure the index is valid
+    if (N <= 0 || M <= 0) {
+        cout << "Invalid maze dimensions.\n";
+        return 0;
+    }
+
     vector<vector<int>> maze(N, vector<int>(M));
     generateMaze(maze, N, M);
 
