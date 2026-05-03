@@ -169,9 +169,15 @@ int main() {
     cout << "Enter maze dimensions N M: ";
     cin >> N >> M;
 
-    //make sure the index is valid
+    //Make sure the index is valid
     if (N <= 0 || M <= 0) {
         cout << "Invalid maze dimensions.\n";
+        return 0;
+    }
+
+    //Checks if the grid is 1x1
+    if (N * M < 2) {
+        cout << "\n1x1 grid. Too small.\n";
         return 0;
     }
 
