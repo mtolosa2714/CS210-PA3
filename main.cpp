@@ -184,6 +184,15 @@ int main() {
     vector<vector<int>> maze(N, vector<int>(M));
     generateMaze(maze, N, M);
 
+    //Check before adding entrance and exit
+    maze[0][0] = 0;
+    if (M > 1) {
+        maze[0][M - 1] = 0;
+    }
+    else {
+        maze[N - 1][0] = 0;
+    }
+
     // Pick entrance and exit
     pair<int,int> entrance = chooseBoundaryCell(maze);
     pair<int,int> exitcell = chooseBoundaryCell(maze);
